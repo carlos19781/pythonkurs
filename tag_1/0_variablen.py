@@ -5,3 +5,4 @@ _a = 2
 # immer klein und mit Underscore getrennt
 mein_name = "Bernd" 
 änderung = 1
+änderung_float = float(änderung) # 1.0

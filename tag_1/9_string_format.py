@@ -1,6 +1,7 @@
 """ 
 String formatieren
 
+Formatierungszeichen der "Mini-Formatierungssprache"
 https://www.w3schools.com/python/ref_string_format.asp
 """
 value = 100_000 # 100_000_000

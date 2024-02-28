@@ -25,6 +25,7 @@ print("x + y", x + y)
 print("12 / 3", x / y)  # Division von Ganzzahlen erzeugt Fliesskommanzahl (True div)
 print("12 // 5", x // 5)  # 12.8 => 12 (Floor-Div)
 
+print("Rest von 4/2:", 8 % 2)
 
 # Exponentiation
 x = 4 
@@ -46,3 +47,5 @@ print("Es bleiben", rest, "Meter übrig")
 # Operatoren-Rangfolge: ** bindet stärker als unäres Minus
 x = 4
 print(-x**2)  # -16
+
+print("3" * 2)

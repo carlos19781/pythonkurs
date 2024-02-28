@@ -23,7 +23,7 @@ print(name)
 # Strings multiplizieren
 # Überladung des Multiplikationsoperators asdfasfdsdfa
 print("+++++++++++++++++++++++++++++++++")
-print("+" * 33)  # erzeugt neuen String mit 33 "+""
+print("+!" * 33)  # erzeugt neuen String mit 33 "+""
 
 print("Der Name hat eine Länge von:", len(name))
 print("Letzes zeichen mit len:", name[len(name) - 1])
@@ -35,8 +35,8 @@ print(name)
 value = "3,3 mm"
 comma = ","
 punkt = "."
-value = value.replace(comma, punkt)
-value = value.replace("mm", "")
+value = value.replace(comma, punkt)  # 3.3 mm
+value = value.replace("mm", "")  # 3.3
 print(float(value))
 
 # find (Substring Spon in Bob Sponge suchen)
